@@ -1,0 +1,19 @@
+1. Vendor Id --> 2 service provider 
+2. tpep_pickup_datetime --> The date and time when the meter was engaged.
+3. tpep_dropoff_datetime --> the date and time when the meter was disengaged.
+4. Passenger_count --> The number of passengers in the vehicle.This is a driver entered value.
+5. Trip_distance --> The Elapsed trip distance in miles reported by the taximeter
+6. Pickup_longitude --> self explanantory
+7. Pickup_latitude --> self
+8. RateCodeID --> Diff rate codes in effect at the end of the trip.
+9. Store_and_fwd_flag --> This flag indicates whether the trip record was held in vehicle memory before sending it to the vendor, aka store and forward because the vehicle did not have a connection to the server.
+Y and N
+10.DropOff_longitude -->Longitude where the meter was disengaged.
+11.Dropoff_Latitude --> latitude where the meter was disengaged.
+12.Payment_type --> categorical
+13. Fare _amount --> fare calculated by the meter
+14.Tip_amount -->
+15.Extra --> Miscellanous charges for ex Rush hour !dollar more
+16.MTA_tax --> It is automatically triggered based in the metered rate in use.
+17.Improvement_recharge -->
+18.Total_amount --> paid amount in total
